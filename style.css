@@ -1,14 +1,22 @@
 *{
     padding: 0;
     margin: 0;
+    color: #FFFFFF;
+
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+background-color: #353129;
 }
 
 h1{
     text-align: center;
-    background-color: rgb(162, 210, 250);
-    color: black;
-    padding: 30px;
-    border-radius: 15px;
+    background-color: #0E0E0E;
+    color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 h2{
@@ -18,7 +26,6 @@ h2{
 
 p{
     text-align: justify;
-    color: black;
     font-size: 20px;
     padding: 15px;
     margin: 15px;
@@ -31,24 +38,22 @@ ul{
 
 li{
     font-size: 30px;
-    font-family: serif;
 }
 
 a{
-    text-decoration: none;
-    color:  rgb(0, 0, 0);
+    text-decoration:underline dotted;
     font-size: 20px;
-    padding: 15px;
 }
 
 .citacaoViagem{
     margin: -15px;
+    padding-top: 30px;
 }
 
 footer{
     padding: 40px;
     margin-top: 40px;
-    background-color: rgb(162, 210, 250);
+    background-color: #0E0E0E;
     background-image: url();
 }
 
@@ -59,16 +64,33 @@ img{
 }
 
 a:hover{
-    color: rgb(17, 130, 206);
+    color: #ffae00;
 }
 
-div{
+.imagemPrincipal{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 450px;
 }
 
-.moscouImagem{
-    height: 600px;
+.pontoTuristico{
+    margin: 15px;
+    ul{
+        list-style: circle;
+    }
+}   
+
+#Autor{
+    margin: -15px;
+}
+
+
+.funcao{
+
+    margin: 15px;
+}
+
+#voltar{
+    padding: 15px;
 }
