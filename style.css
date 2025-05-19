@@ -87,10 +87,19 @@ a:hover{
 
 
 .funcao{
-
+    padding-top: 15px;
     margin: 15px;
 }
 
 #voltar{
     padding: 15px;
+}
+
+#listaCidades{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    ul{
+        font-size: 100px;
+    }
 }
